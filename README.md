@@ -5,23 +5,5 @@ If you like to take notes in simple text files and all you need is just some col
 
 Please note that the colors will change depending on your VSCode theme. 
 
-| Syntax     |
-|------------|
-| >!         |
-| >#         |
-| >$         |
-| >%         |
-| --> text   |
-| \< text \> |
-| * text *   | 
-| ~ text ~   |
-| \_ text \_ |
-| 'text'     |
-| \` text \` |
-| : text :   |
-| // text    |
-| /* text */ |
-
-
 ### Example
 <img src="images/example.png" width="50%">
