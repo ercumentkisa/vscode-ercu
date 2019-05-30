@@ -5,4 +5,4 @@ If you like to take notes in simple text files and all you need is just some col
 
 
 ### Example
-![example image](images/example.png "Example image.")
+<img src="images/example.png" width="50%">
