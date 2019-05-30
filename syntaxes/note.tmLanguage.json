@@ -14,8 +14,12 @@
 			"name": "comment"
 		},
 		{
+			"match": "!(.*)",
+			"name": "entity.name.tag"
+		},
+		{
 			"match": "#(.*)",
-			"name": "variable.parameter"
+			"name": "constant.character"
 		},
 		{
 			"match": "\\$(.*)",
