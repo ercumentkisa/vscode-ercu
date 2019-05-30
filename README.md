@@ -6,4 +6,4 @@ If you like to take notes in simple text files and all you need is just some col
 Please note that the colors will change depending on your VSCode theme. 
 
 ### Example
-<img src="images/example.png" width="50%">
+<img src="images/example-note.png" width="50%">
