@@ -5,7 +5,7 @@
 	"uuid": "9594e4a0-855d-4040-aa3b-c912e52f4744",
 
 	"patterns": [{
-			"begin": "/\\*(.*)",
+			"begin": "/\\*",
 			"end": "\\*/",
 			"name": "comment"
 		},
