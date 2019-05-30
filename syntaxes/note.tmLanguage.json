@@ -26,12 +26,12 @@
 			"name": "entity.name.function.ercu"
 		},
 		{
-			"match": "(.*)-->",
-			"name": "support.class.ercu"
-		},
-		{
 			"match": "%(.*)",
 			"name": "entity.other.inherited-class"
+		},
+		{
+			"match": "(.*)-->",
+			"name": "support.class.ercu"
 		},
 		{
 			"match": "\\<(.*)\\>",
