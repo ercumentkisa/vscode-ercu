@@ -21,25 +21,21 @@
         "Languages"
     ],
     "contributes": {
-        "languages": [
-            {
-                "id": "ercu",
-                "aliases": [
-                    "Ercu",
-                    "ercu"
-                ],
-                "extensions": [
-                    ".ercu"
-                ],
-                "configuration": "./language-configuration.json"
-            }
-        ],
-        "grammars": [
-            {
-                "language": "ercu",
-                "scopeName": "text.ercu",
-                "path": "./syntaxes/note.tmLanguage.json"
-            }
-        ]
+        "languages": [{
+            "id": "ercu",
+            "aliases": [
+                "Ercu",
+                "ercu"
+            ],
+            "extensions": [
+                ".ercu"
+            ],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ercu",
+            "scopeName": "text.ercu",
+            "path": "./syntaxes/note.tmLanguage.json"
+        }]
     }
 }
