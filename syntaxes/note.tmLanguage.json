@@ -42,8 +42,12 @@
 			"name": "keyword"
 		},
 		{
-			"match": "\\_(.*)\\_",
+			"match": "\\~(.*)\\~",
 			"name": "keyword.control.ercu"
+		},
+		{
+			"match": "\\_(.*)\\_",
+			"name": "markup.underline"
 		}
 	]
 }
