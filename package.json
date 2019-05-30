@@ -35,7 +35,7 @@
         "grammars": [{
             "language": "ercu",
             "scopeName": "text.ercu",
-            "path": "./syntaxes/note.tmLanguage.json"
+            "path": "./syntaxes/ercu.tmLanguage.json"
         }]
     }
 }
