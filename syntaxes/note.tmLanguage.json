@@ -14,28 +14,28 @@
 			"name": "comment"
 		},
 		{
-			"match": "!(.*)",
+			"match": "\\>!(.*)",
 			"name": "markup.bold"
 		},
 		{
-			"match": "#(.*)",
+			"match": "\\>#(.*)",
 			"name": "constant.character"
 		},
 		{
-			"match": "\\$(.*)",
+			"match": "\\>\\$(.*)",
 			"name": "entity.name.function.ercu"
 		},
 		{
-			"match": "%(.*)",
+			"match": "\\>%(.*)",
 			"name": "string.quoted.single"
-		},
-		{
-			"match": "(.*)-->",
-			"name": "support.class.ercu"
 		},
 		{
 			"match": "\\<(.*)\\>",
 			"name": "string.regexp"
+		},
+		{
+			"match": "(.*)-->",
+			"name": "support.class.ercu"
 		},
 		{
 			"match": "\\*(.*)\\*",
@@ -58,7 +58,7 @@
 			"name": "markup.italic"
 		},
 		{
-			"match": "\\@(.*)",
+			"match": ":(.*):",
 			"name": "entity.name.tag"
 		}
 	]
