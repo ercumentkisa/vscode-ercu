@@ -1,32 +1,65 @@
 {
-	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "Ercu",
-	"patterns": [
-		{
-			"include": "#keywords"
+	"scopeName": "text.ercu",
+	"fileTypes": ["ercu"],
+	"uuid": "9594e4a0-855d-4040-aa3b-c912e52f4744",
+
+	"patterns": [{
+			"begin": "/\\*(.*)",
+			"end": "\\*/",
+			"name": "comment"
 		},
 		{
-			"include": "#strings"
-		}
-	],
-	"repository": {
-		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.ercu",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
+			"match": "// (.*)",
+			"name": "comment"
 		},
-		"strings": {
-			"name": "string.quoted.double.ercu",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.ercu",
-					"match": "\\\\."
-				}
-			]
+		{
+			"match": "\\>!(.*)",
+			"name": "markup.bold"
+		},
+		{
+			"match": "\\>#(.*)",
+			"name": "constant.character"
+		},
+		{
+			"match": "\\>\\$(.*)",
+			"name": "entity.name.function.ercu"
+		},
+		{
+			"match": "\\>%(.*)",
+			"name": "string.quoted.single"
+		},
+		{
+			"match": "(.*)-->",
+			"name": "support.class.ercu"
+		},
+		{
+			"match": "\\<(.*)\\>",
+			"name": "string.regexp"
+		},
+		{
+			"match": "\\*(.*)\\*",
+			"name": "keyword"
+		},
+		{
+			"match": "\\~(.*)\\~",
+			"name": "keyword.control.ercu"
+		},
+		{
+			"match": "\\_(.*)\\_",
+			"name": "markup.underline"
+		},
+		{
+			"match": "\\'(.*)\\'",
+			"name": "markup.quote"
+		},
+		{
+			"match": "\\`(.*)\\`",
+			"name": "markup.italic"
+		},
+		{
+			"match": ":(.*):",
+			"name": "entity.name.tag"
 		}
-	},
-	"scopeName": ""
+	]
 }
