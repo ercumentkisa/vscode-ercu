@@ -1,0 +1,31 @@
+{
+    "name": "ercu",
+    "author": {
+        "name": "Ercument Kisa",
+        "email": "ercumentkisa@gmail.com"
+    },
+    "publisher": "ercumentkisa",
+    "displayName": "Ercu",
+    "description": "Highlighted plain text format",
+    "icon": "images/feature-ercu.png",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ercu",
+            "aliases": ["Ercu", "ercu"],
+            "extensions": [".ercu"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ercu",
+            "scopeName": "text.ercu",
+            "path": "./syntaxes/note.tmLanguage.json"
+        }]
+    }
+}

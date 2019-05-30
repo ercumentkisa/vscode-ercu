@@ -1,0 +1,45 @@
+{
+	"name": "Ercu",
+	"scopeName": "text.ercu",
+	"fileTypes": ["ercu"],
+	"uuid": "9594e4a0-855d-4040-aa3b-c912e52f4744",
+
+	"patterns": [{
+			"begin": "/\\*(.*)",
+			"end": "\\*/",
+			"name": "comment"
+		},
+		{
+			"match": "// (.*)",
+			"name": "comment"
+		},
+		{
+			"match": "#(.*)",
+			"name": "variable.parameter"
+		},
+		{
+			"match": "\\$(.*)",
+			"name": "entity.name.function.ercu"
+		},
+		{
+			"match": "(.*)-->",
+			"name": "support.class.ercu"
+		},
+		{
+			"match": "%(.*)",
+			"name": "entity.other.inherited-class"
+		},
+		{
+			"match": "\\<(.*)\\>",
+			"name": "keyword.operator.new.ercu"
+		},
+		{
+			"match": "\\*(.*)\\*",
+			"name": "keyword"
+		},
+		{
+			"match": "\\_(.*)\\_",
+			"name": "keyword.control.ercu"
+		}
+	]
+}
