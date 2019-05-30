@@ -7,7 +7,7 @@
     "publisher": "ercumentkisa",
     "displayName": "Ercu",
     "description": "Highlighted plain text format",
-    "icon": "images/feature-ercu.png",
+    "icon": "images/ercu.png",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.19.0"
