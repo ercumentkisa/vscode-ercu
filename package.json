@@ -1,41 +1,49 @@
 {
-    "name": "ercu",
-    "author": {
-        "name": "Ercument Kisa",
-        "email": "ercumentkisa@gmail.com"
-    },
-    "publisher": "ercumentkisa",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ercumentkisa/vscode-ercu"
-    },
-    "license": "GPL-3.0-or-later",
-    "displayName": "Ercu",
-    "description": "Plaintext with color support.",
-    "icon": "images/ercu.png",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.19.0"
-    },
-    "categories": [
-        "Languages"
-    ],
-    "contributes": {
-        "languages": [{
-            "id": "ercu",
-            "aliases": [
-                "Ercu",
-                "ercu"
-            ],
-            "extensions": [
-                ".ercu"
-            ],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "ercu",
-            "scopeName": "text.ercu",
-            "path": "./syntaxes/ercu.tmLanguage.json"
-        }]
-    }
+  "name": "ercu",
+  "displayName": "ercu",
+  "description": "Plaintext with color support.",
+  "version": "0.0.1",
+  "icon": "images/ercu.png",
+  "publisher": "ercumentkisa",
+  "author": {
+    "name": "Ercument Kisa",
+    "email": "ercumentkisa@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ercumentkisa/vscode-ercu"
+  },
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "vscode": "^1.19.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "keywords": [
+    "ercu",
+    "highlight",
+    "color",
+    "plaintext"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ercu",
+      "aliases": [
+        "ercu",
+        "Ercu",
+        "ERCU"
+      ],
+      "extensions": [
+        ".ercu"
+      ],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ercu",
+      "scopeName": "text.ercu",
+      "path": "./syntaxes/ercu.tmLanguage.json"
+    }]
+  }
 }
