@@ -1,65 +1,77 @@
 {
-	"name": "Ercu",
-	"scopeName": "text.ercu",
-	"fileTypes": ["ercu"],
-	"uuid": "9594e4a0-855d-4040-aa3b-c912e52f4744",
+  "name": "ercu",
+  "scopeName": "text.ercu",
+  "fileTypes": ["ercu"],
+  "uuid": "9594e4a0-855d-4040-aa3b-c912e52f4744",
 
-	"patterns": [{
-			"begin": "/\\*",
-			"end": "\\*/",
-			"name": "comment"
-		},
-		{
-			"match": "// (.*)",
-			"name": "comment"
-		},
-		{
-			"match": "\\>!(.*)",
-			"name": "markup.bold"
-		},
-		{
-			"match": "\\>#(.*)",
-			"name": "constant.character"
-		},
-		{
-			"match": "\\>\\$(.*)",
-			"name": "entity.name.function.ercu"
-		},
-		{
-			"match": "\\>%(.*)",
-			"name": "string.quoted.single"
-		},
-		{
-			"match": "(.*)-->",
-			"name": "support.class.ercu"
-		},
-		{
-			"match": "\\<(.*)\\>",
-			"name": "string.regexp"
-		},
-		{
-			"match": "\\*(.*)\\*",
-			"name": "keyword"
-		},
-		{
-			"match": "\\~(.*)\\~",
-			"name": "keyword.control.ercu"
-		},
-		{
-			"match": "\\_(.*)\\_",
-			"name": "markup.underline"
-		},
-		{
-			"match": "\\'(.*)\\'",
-			"name": "markup.quote"
-		},
-		{
-			"match": "\\`(.*)\\`",
-			"name": "markup.italic"
-		},
-		{
-			"match": ":(.*):",
-			"name": "entity.name.tag"
-		}
-	]
+  "patterns": [{
+      "begin": "/\\*",
+      "end": "\\*/",
+      "name": "comment"
+    },
+    {
+      "match": "// (.*)",
+      "name": "comment"
+    },
+    {
+      "match": "\\>!(.*)",
+      "name": "markup.bold"
+    },
+    {
+      "match": "\\>@(.*)",
+      "name": "constant.language"
+    },
+    {
+      "match": "\\>#(.*)",
+      "name": "constant.numeric"
+    },
+    {
+      "match": "\\>\\$(.*)",
+      "name": "entity.name.function.ercu"
+    },
+    {
+      "match": "\\>%(.*)",
+      "name": "string.quoted.single"
+    },
+    {
+      "match": "\\>\\^(.*)",
+      "name": "entity.other.inherited-class"
+    },
+    {
+      "match": "\\>\\&(.*)",
+      "name": "entity.other.attribute-name"
+    },
+    {
+      "match": "(.*)-->",
+      "name": "support.class.ercu"
+    },
+    {
+      "match": "\\<(.*)\\>",
+      "name": "string.regexp"
+    },
+    {
+      "match": "\\*(.*)\\*",
+      "name": "keyword"
+    },
+    {
+      "match": "\\~(.*)\\~",
+      "name": "keyword.control.ercu"
+    },
+    {
+      "match": "\\_(.*)\\_",
+      "name": "markup.underline"
+    },
+    {
+      "match": "\\'(.*)\\'",
+      "name": "markup.quote"
+    },
+    {
+      "match": "\\`(.*)\\`",
+      "name": "markup.italic"
+    },
+    {
+      "match": ":(.*):",
+      "name": "entity.name.tag"
+    }
+  ]
 }
